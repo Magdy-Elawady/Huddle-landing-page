@@ -181,6 +181,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 100px;
+
     }
 
     main img {
@@ -217,13 +218,18 @@ footer {
         justify-content: end;
         margin-right: 2px;
         gap: 18px;
+        position: relative;
+    }
 
+    footer div {
+        position: absolute;
+        right: 20px;
+        bottom: -7px;
     }
 
     footer ion-icon {
         width: 24px;
         height: 24px;
         padding: 7px;
-
     }
 }
